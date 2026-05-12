@@ -1,0 +1,2 @@
+# Micrograd-style-Deep-Learning-Micro-Framework-Automatic-Differentiation-
+Build a small library that implements a reverse scalar autodifferentiation engine. Create a Tensor or Value class that stores the numeric value, the accumulated gradient, and pointers to the parent nodes of the operation. When calling .backward(), the system should traverse the dynamic computation graph in topological order, applying the chain rule
